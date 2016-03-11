@@ -19,5 +19,5 @@ Most syncing applications that offer this sort of fine tuned security are not fr
 - [ ] Monitor folder for changes in files and new files. Store information into database
 - [ ] Upload / Download files from amazon according to database time information
 - [ ] Initialization script to set up a folder for sync
-- [ ] Android implementation
+- [ ] Android implementation must be able to encrypt and decrypt on local device
 
