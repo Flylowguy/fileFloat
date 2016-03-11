@@ -1,6 +1,0 @@
-- [ ] Encryption / Decryption
-- [ ] Database to persist sync data. Time stamp, subdirectory, file name and extension type. This is to be encrypted and stored on the S3 server
-- [ ] Monitor folder for changes in files and new files. Store information into database
-- [ ] Upload / Download files from amazon according to database time information
-- [ ] Initialization script to set up a folder for sync
-- [ ] Android implementation
