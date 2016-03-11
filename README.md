@@ -12,3 +12,12 @@ As an avid user of linux, windows, and android I find that most syncing applicat
 Most syncing services do not offer very transparent security. I want to know what encryption method was used and what key was used. I also only want to store encrypted files. An unencrypted file should never be stored on the cloud. For this reason, all encryption and decryption must happen on the users machine or phone.
 
 Most syncing applications that offer this sort of fine tuned security are not free. fileFloat will use amazon S3, coming in at $0.03 per GB per month.
+
+#TODO
+- [ ] Encryption / Decryption
+- [ ] Database to persist sync data. Time stamp, subdirectory, file name and extension type. This is to be encrypted and stored on the S3 server
+- [ ] Monitor folder for changes in files and new files. Store information into database
+- [ ] Upload / Download files from amazon according to database time information
+- [ ] Initialization script to set up a folder for sync
+- [ ] Android implementation
+
